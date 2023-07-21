@@ -1,9 +1,11 @@
 package config_test
 
 import (
-	"noerrorcheck/config"
 	"testing"
 
+	assert "github.com/stretchr/testify/assert"
+
+	"noerrorcheck/config"
 )
 
 func TestConfigCheck(t *testing.T) {
